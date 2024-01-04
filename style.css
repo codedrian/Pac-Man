@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    line-height: 0px;
+}
+div.row div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 0px;
+}
+div.brick {
+    background-color: #0710c0;
+}
+div.coin {
+    background: url(./images/coin.png) no-repeat center/cover;
+}
+div#pacman {
+    background: url(./images/pacman.gif) no-repeat center/cover;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    
+}
